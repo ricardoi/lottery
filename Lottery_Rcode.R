@@ -1,9 +1,10 @@
 # lottery script
 rm(list=ls(all=TRUE)) 
 
-setwd(dir = "/Users/ricardoialcala/Documents/Documents-ehecatl/scripts_r/Lottery/")
+setwd(dir = "/USE/YOUR/PATH/Lottery/")
 
-# install.packages("magick")
+#---------------------------------------------------------------------------------------------
+install.packages("magick")
 library("magick")
 # loading first image
 BrownRust <- image_read("https://ohioline.osu.edu/sites/ohioline/files/imce/Plant_Pathology/PLPTH-CER-12_Fig_1_Page_1.png") %>%
