@@ -1,3 +1,4 @@
+# lottery script
 rm(list=ls(all=TRUE)) 
 
 setwd(dir = "/Users/ricardoialcala/Documents/Documents-ehecatl/scripts_r/Lottery/")
